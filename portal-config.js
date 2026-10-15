@@ -1,10 +1,6 @@
-/**
- * Локально: enabled=false — работает как раньше (tasks_server / tasks.json).
- * Для облака: скопируйте значения из portal-config.example.js и поставьте enabled: true.
- */
 window.PORTAL_CLOUD = {
-  enabled: false,
-  supabaseUrl: "https://YOUR_PROJECT.supabase.co",
-  supabaseAnonKey: "YOUR_ANON_KEY",
+  enabled: true,
+  supabaseUrl: "https://dqrtfogmyltpdwxjjgzs.supabase.co",
+  supabaseAnonKey: "sb_publishable_HlIeDyfqiUwgWYlNOW5Gcg_XUAJeLtT",
   stateId: "default",
 };
